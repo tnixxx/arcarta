@@ -1,0 +1,25 @@
+.header
+    font-weight: bold !important
+    margin-top: 30px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    &__container
+        display: flex
+        align-items: center
+        &-menu
+            &-link
+                margin-right: 30px
+                margin-left: 30px
+                &:nth-child(1)
+                    margin-left: 0px
+                &:last-child
+                    margin-right: 0px                    
+        &-button
+            margin-left: 45px
+            padding: 12px 28px
+@media (max-width: 1000px)
+    .header
+        &__container
+            display: none
+    // здесь должен был быть бургер, но таааак лень

@@ -1,0 +1,24 @@
+.brands
+    margin-top: 50px
+    &-container
+        display: flex
+        justify-content: space-between
+        margin-bottom: 30px
+        &b
+            display: flex
+            justify-content: center
+            &-button
+                background: none 
+                color: #C47344 !important
+@media (max-width: 1024px)
+    .brands
+        &-img
+            &:nth-child(4)
+                display: none
+@media (max-width: 970px)
+    .brands
+        &-img
+            display: none
+        &-container
+            margin-bottom: 0px
+        &-containerb
