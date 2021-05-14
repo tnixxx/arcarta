@@ -2,8 +2,10 @@
     margin-top: 180px
     display: flex
     justify-content: center
+    flex-wrap: wrap
     &-img
         margin-right: 85px
+        margin-bottom: 50px
     &__container
         max-width: 470px
         &-info
@@ -25,3 +27,6 @@
             margin-bottom: 25px
         &-button
             padding: 16px 27px 16px 27px
+@media (max-width: 360px)
+    .promo
+        justify-content: start

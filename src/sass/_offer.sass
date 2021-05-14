@@ -1,9 +1,11 @@
 .offer
     margin-top: 135px
-    padding: 43px 193px 45px 60px
+    padding: 43px 0px 45px 60px
     background-color: #FAF7F3
     display: flex
+    justify-content: center
     align-items: center
+    flex-wrap: wrap
     &-img
     &__container
         margin-left: 55px
@@ -21,7 +23,6 @@
             // -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.3)
             // -moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.3)
             // box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.3)
-            max-width: 380px
             &-img
 .form-control
     padding: 30px 0px 30px 30px
@@ -29,3 +30,13 @@
     border: none
 .input-button
     background-color: white
+@media (max-width: 1232px)
+    .offer
+        text-align: center
+        &__container
+            &-input
+@media (max-width: 985px)
+    .offer
+        padding: 20px 20px 20px 20px
+        &__container
+            margin-left: 0px

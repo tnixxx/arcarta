@@ -1,11 +1,12 @@
 .footer
     margin-top: 150px
     display: flex
+    flex-wrap: wrap-reverse
     &__colf
         max-width: 340px
         margin-right: 190px
         &-logo
-            margin-bottom: 15px
+            margin-bottom: 20px
         &-text
             margin-bottom: 30px
             font-size: 13px
@@ -21,14 +22,20 @@
             font-size: 13px
             line-height: 20px
             color: #D3D3D3 !important
+    &--col
+        display: flex
+        flex-wrap: wrap
     &__col
+        max-width: 180px !important
+        margin-right: 100px
+        &:last-child
+            margin-right: 0px
         &-menu
             display: flex
             flex-direction: column
             &-link
                 margin-bottom: 7px
-
-    &-col
+    &-nav
         display: flex
         justify-content: space-between
     &-block
@@ -42,3 +49,19 @@
             margin-right: 10px
         &-img
             margin-right: 10px !important
+@media (max-width: 1024px)
+    .footer
+        &__col
+            margin-bottom: 30px
+        &__colf
+            &-logo
+@media (max-width: 408px)
+    .footer
+        &-nav
+            flex-wrap: wrap
+        &-block
+            margin-top: 10px
+            &-text
+
+            &-img
+                // margin-right: 3px !important
