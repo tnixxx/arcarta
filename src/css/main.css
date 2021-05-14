@@ -300,11 +300,6 @@ a:hover {
 }
 
 @media (max-width: 559px) {
-  .list {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
-  }
   .list__item {
     padding: 20px;
   }
@@ -313,6 +308,12 @@ a:hover {
 @media (max-width: 375px) {
   .list__item-button {
     line-height: 17px;
+  }
+}
+
+@media (max-width: 1086px) {
+  .list__item {
+    margin-right: 0px;
   }
 }
 
