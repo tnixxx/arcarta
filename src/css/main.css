@@ -1,7 +1,7 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: Roboto, sans-serif;
+  font-family: sans-serif;
   color: #322F2E !important;
 }
 
@@ -55,14 +55,6 @@ a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-@font-face {
-  font-family: 'Roboto Medium';
-  src: url("../fonts/Roboto-Medium.eot");
-  src: url("../fonts/?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Medium.woff") format("woff"), url("../fonts/Roboto-Medium.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
 }
 
 .header {
