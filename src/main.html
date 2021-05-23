@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <title>Arcarta</title>
 </head>
-<body>
+<body style='background: rgb(255,248,238); background: linear-gradient(180deg, rgba(255,248,238,1) 44%, rgba(255,255,255,1) 100%)'>
     <header>
         <div class="container">
-            <div class="header">
-                <img src="img/header/logo.svg" alt="" class="header-logo">
+            <div class="header wow animate__animated animate__fadeInDown">
+                <a href="main.html"class="header-logo"><img src="img/header/logo.svg" alt=""></a>
                 <div class="header__container">
                     <div class="header__container-menu">
                         <a href="#" class="header__container-menu-link">What is arcarta?</a>
@@ -21,14 +23,14 @@
                         <a href="#" class="header__container-menu-link">Contacts</a>
                         <a href="main-ru.html" class="header__container-menu-link">Change language</a>
                     </div>
-                    <button class="btn button header__container-button">Get Started</button>
+                    <a href="login.html" class="btn button header__container-button">Get Started</a>
                 </div>
             </div>
         </div>
     </header>
     <section>
         <div class="container">
-            <div class="hero">
+            <div class="hero wow animate__animated animate__fadeIn animate__delay-1s">
                 <img src="img/hero/hero-img.svg" alt="" class="hero-img">
                 <h1 class="hero-title">Rely on us</h1>
                 <p class="hero-text">Our Customer Due Diligence platform helps you avoid fines or losing clients due to AML while protecting you from cybercrime.</p>
@@ -39,27 +41,27 @@
     <section>
         <div class="container">
             <div class="brands">
-                <div class="brands-container">
+                <div class="brands-container brands wow animate__animated animate__delay-2s animate__fadeIn">
                     <img src="img/brands/brand-1.svg" alt="" class="brands-img">
                     <img src="img/brands/brand-2.svg" alt="" class="brands-img">
                     <img src="img/brands/brand-3.svg" alt="" class="brands-img">
                     <img src="img/brands/brand-4.svg" alt="" class="brands-img">
                 </div>
-                <div class="brands-containerb">
+                <div class="brands-containerb wow animate__animated animate__delay-2s animate__fadeIn">
                     <button class="btn button brands-containerb-button">What is arcarta?</button>
                     <img src="img/brands/brand-arrow.svg" alt="" class="brands-containerb-arrow">
                 </div>
             </div>
         </div>
     </section>
-    <section class="shame">
+    <section class="shame wow animate__animated animate__delay-2s animate__fadeIn">
         <div class="bg">
             <img src="img/shame/fst-bg.svg" alt="" class="bg-img">
         </div>
     </section>
     <section>
         <div class="container">
-            <div class="list">
+            <div class="list wow animate__animated animate__fadeIn">
                 <div class="list__item col-xl-6">
                     <img src="img/list/img-1.svg" alt="" class="list__item-img">
                     <h3 class="list__item-title">For Art Dealers</h3>
@@ -89,7 +91,7 @@
     </section>
     <section>
         <div class="container">
-            <div class="promo">
+            <div class="promo wow animate__animated animate__fadeIn">
                 <img src="img/promo/promo-1.svg" alt="" class="promo-img">
                 <div class="promo__container">
                     <span class="promo__container-info">New</span>
@@ -102,7 +104,7 @@
     </section>
     <section>
         <div class="container">
-            <div class="offer">
+            <div class="offer wow animate__animated animate__fadeIn">
                 <img src="img/offer/offer-1.svg" alt="" class="offer-img">
                 <div class="offer__container">
                     <h3 class="offer__container-title">Art world insight.</h3>
@@ -117,7 +119,7 @@
     </section>
     <footer>
         <div class="container">
-            <div class="footer">
+            <div class="footer wow animate__animated animate__fadeIn">
                 <div class="footer__colf">
                     <img src="img/header/logo.svg" alt="" class="logo footer__colf-logo">
                     <p class="footer__colf-text">Our Customer Due Diligence platform helps you avoid fines or losing clients due to AML while protecting you from cybercrime.</p>
@@ -170,18 +172,23 @@
             </div>
         </div>
     </footer>
-    <footer>
+    <footer class="wow animate__animated animate__fadeIn">
         <div class="container">
             <div class="footer-nav">
                 <img src="img/footer/footer-img-3.svg" alt="" class="footer-img">
                 <div class="footer-block">
                     <p class="footer-block-text">Privacy & Terms</p>
-                    <a href="https://www.arcarta.com/"><img src="img/footer/tweet.svg" alt="Ссылка на оригинал сайта" class="footer-block-img"></a>
-                    <a href="#"><img src="img/footer/inst.svg" alt="" class="footer-block-img"></a>
-                    <a href="#"><img src="img/footer/yt.svg" alt="" class="footer-block-img"></a>
+                    <a href="https://twitter.com/Arcarta"><img src="img/footer/tweet.svg" alt="" class="footer-block-img"></a>
+                    <a href="https://www.instagram.com/arcarta/"><img src="img/footer/inst.svg" alt="" class="footer-block-img"></a>
+                    <a href="https://www.youtube.com/channel/UCPTd4lRtxPyQLFlS6kjA6XQ"><img src="img/footer/yt.svg" alt="" class="footer-block-img"></a>
                 </div>
             </div>
         </div>
     </footer>
+    <script src="js/wow.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 </body>
+
 </html>
