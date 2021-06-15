@@ -1,0 +1,46 @@
+.login
+    margin-top: 200px
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-around
+    &__container
+        max-width: 400px
+        &-title
+            font-size: 56px
+        &-img
+            max-width: 485px
+    &__block
+        &-title
+            text-align: center
+            font-size: 43px
+            margin-bottom: 50px
+        &__form
+            &-group
+                &-text
+                    margin-top: 10px
+                    margin-bottom: 0px
+                &-input
+                    padding-right: 200px !important
+                    border: 1px solid #dcdcdd
+                    padding: 15px
+        &-button
+            padding: 9px 60px
+            margin-top: 30px
+            display: flex
+            justify-content: center
+    &-header
+        display: flex
+        flex-wrap: wrap
+        &-link
+            margin-top: 12px
+@media (max-width: 506px)
+    .login__block__form-group-input
+        padding-right: 100px !important
+@media (max-width: 506px)
+    .login
+        margin-top: 60px
+@media (max-width: 371px)
+    .login
+        &__block
+            &-button
+                &-s
