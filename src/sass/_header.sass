@@ -27,6 +27,8 @@
     .header
         display: none
         width: 100%
+        &-logo
+            display: none
         &__container
             flex-direction: column
             position: absolute
@@ -55,6 +57,11 @@
                     margin-left: 0px
     .header-active 
         display: block
+        position: absolute
+        top: 0
+        z-index: 1
+        height: 100%
+        margin-top: 0px
     .menu-button
         display: block
         width: 30px
